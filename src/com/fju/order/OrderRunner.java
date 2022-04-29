@@ -26,6 +26,7 @@ public class OrderRunner {
         System.out.println("金額\t運送\t運費\t小計");
         for (int i = 0; i < orders.size(); i++) {
             Order order = orders.get(i);
+
             System.out.println(order.amount + "\t" + order.delivery.name + "\t" +
                     order.shipFeed + "\t" + order.total());
         }
